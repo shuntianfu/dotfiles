@@ -1,0 +1,7 @@
+2021/06/07-18:16:27.617 2c907 Reusing MANIFEST /home/zhang/.config/Atom/Local Storage/leveldb/MANIFEST-000001
+2021/06/07-18:16:27.617 2c907 Recovering log #313
+2021/06/07-18:16:27.618 2c907 Level-0 table #318: started
+2021/06/07-18:16:27.629 2c907 Level-0 table #318: 108162 bytes OK
+2021/06/07-18:16:27.629 2c907 Recovering log #317
+2021/06/07-18:16:27.629 2c907 Reusing old log /home/zhang/.config/Atom/Local Storage/leveldb/000317.log 
+2021/06/07-18:16:27.630 2c907 Delete type=0 #313

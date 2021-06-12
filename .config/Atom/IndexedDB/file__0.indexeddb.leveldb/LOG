@@ -1,0 +1,12 @@
+2021/06/12-00:56:56.261 753d Reusing MANIFEST /home/zhang/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/06/12-00:56:56.262 753d Recovering log #692
+2021/06/12-00:56:56.450 753d Reusing old log /home/zhang/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000692.log 
+2021/06/12-00:57:54.145 75d5 Compacting 1@0 + 1@1 files
+2021/06/12-00:57:54.283 75d5 Generated table #695@0: 4038 keys, 208111 bytes
+2021/06/12-00:57:54.283 75d5 Compacted 1@0 + 1@1 files => 208111 bytes
+2021/06/12-00:57:54.284 75d5 compacted to: files[ 0 1 0 0 0 0 0 ]
+2021/06/12-00:57:54.285 75d5 Delete type=2 #693
+2021/06/12-00:57:54.285 75d5 Delete type=2 #691
+2021/06/12-00:58:08.500 75d5 Level-0 table #697: started
+2021/06/12-00:58:08.544 75d5 Level-0 table #697: 1110274 bytes OK
+2021/06/12-00:58:08.546 75d5 Delete type=0 #692

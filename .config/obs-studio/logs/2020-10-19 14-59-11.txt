@@ -1,0 +1,309 @@
+02:59:11 PM.102: CPU Name: Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz
+02:59:11 PM.102: CPU Speed: 1024.548MHz
+02:59:11 PM.103: Physical Cores: 2, Logical Cores: 4
+02:59:11 PM.103: Physical Memory: 7807MB Total, 5174MB Free
+02:59:11 PM.103: Kernel Version: Linux 5.4.72-1-lts
+02:59:11 PM.103: Distribution: "Arch Linux" Unknown
+02:59:11 PM.104: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+02:59:11 PM.106: Portable mode: false
+02:59:11 PM.155: OBS 26.0.2-2 (linux)
+02:59:11 PM.155: ---------------------------------
+02:59:11 PM.155: ---------------------------------
+02:59:11 PM.156: audio settings reset:
+02:59:11 PM.156: 	samples per sec: 48000
+02:59:11 PM.156: 	speakers:        6
+02:59:11 PM.157: ---------------------------------
+02:59:11 PM.157: Initializing OpenGL...
+02:59:11 PM.196: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)
+02:59:11 PM.196: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 20.2.0, shading language 4.20
+02:59:11 PM.212: ---------------------------------
+02:59:11 PM.212: video settings reset:
+02:59:11 PM.212: 	base resolution:   1366x768
+02:59:11 PM.212: 	output resolution: 1280x720
+02:59:11 PM.212: 	downscale filter:  Bicubic
+02:59:11 PM.212: 	fps:               30/1
+02:59:11 PM.212: 	format:            NV12
+02:59:11 PM.212: 	YUV mode:          709/Partial
+02:59:11 PM.212: NV12 texture support not available
+02:59:11 PM.213: Audio monitoring device:
+02:59:11 PM.213: 	name: Default
+02:59:11 PM.213: 	id: default
+02:59:11 PM.213: ---------------------------------
+02:59:11 PM.214: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+02:59:11 PM.215: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+02:59:11 PM.215: 
+02:59:11 PM.215: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+02:59:11 PM.219: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+02:59:11 PM.219: No blackmagic support
+02:59:11 PM.227: NVENC supported
+02:59:11 PM.227: FFMPEG VAAPI supported
+02:59:11 PM.228: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+02:59:11 PM.228: 
+02:59:11 PM.228: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+02:59:11 PM.234: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+02:59:11 PM.234: 
+02:59:11 PM.234: Couldn't find VLC installation, VLC video source disabled
+02:59:11 PM.234: ---------------------------------
+02:59:11 PM.234:   Loaded Modules:
+02:59:11 PM.234:     vlc-video.so
+02:59:11 PM.234:     text-freetype2.so
+02:59:11 PM.234:     rtmp-services.so
+02:59:11 PM.234:     obs-x264.so
+02:59:11 PM.234:     obs-transitions.so
+02:59:11 PM.234:     obs-outputs.so
+02:59:11 PM.234:     obs-filters.so
+02:59:11 PM.234:     obs-ffmpeg.so
+02:59:11 PM.234:     linux-v4l2.so
+02:59:11 PM.234:     linux-pulseaudio.so
+02:59:11 PM.234:     linux-jack.so
+02:59:11 PM.234:     linux-decklink.so
+02:59:11 PM.234:     linux-capture.so
+02:59:11 PM.234:     linux-alsa.so
+02:59:11 PM.234:     image-source.so
+02:59:11 PM.234:     decklink-ouput-ui.so
+02:59:11 PM.234: ---------------------------------
+02:59:11 PM.234: ==== Startup complete ===============================================
+02:59:11 PM.238: All scene data cleared
+02:59:11 PM.238: ------------------------------------------------
+02:59:11 PM.247: alsa-input: PCM 'default' rate set to 48000
+02:59:11 PM.247: alsa-input: PCM 'default' channels set to 2
+02:59:11 PM.248: xshm-input: Geometry 1366x768 @ 0,0
+02:59:11 PM.249: Switched to scene 'Scene'
+02:59:11 PM.249: ------------------------------------------------
+02:59:11 PM.249: Loaded scenes:
+02:59:11 PM.249: - scene 'Scene':
+02:59:11 PM.249:     - source: 'Screen Capture (XSHM)' (xshm_input)
+02:59:11 PM.249:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+02:59:11 PM.249:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+02:59:11 PM.249: ------------------------------------------------
+02:59:11 PM.831: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Audio Capture Device (ALSA))
+02:59:11 PM.831: 
+03:00:15 PM.676: Starting recording due to hotkey
+03:00:15 PM.679: ---------------------------------
+03:00:15 PM.679: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+03:00:15 PM.679: [x264 encoder: 'simple_h264_recording'] profile: high
+03:00:15 PM.679: [x264 encoder: 'simple_h264_recording'] settings:
+03:00:15 PM.679: 	rate_control: CRF
+03:00:15 PM.679: 	bitrate:      0
+03:00:15 PM.679: 	buffer size:  0
+03:00:15 PM.679: 	crf:          19
+03:00:15 PM.679: 	fps_num:      30
+03:00:15 PM.679: 	fps_den:      1
+03:00:15 PM.679: 	width:        1280
+03:00:15 PM.679: 	height:       720
+03:00:15 PM.679: 	keyint:       250
+03:00:15 PM.679: 
+03:00:15 PM.690: ---------------------------------
+03:00:15 PM.690: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+03:00:15 PM.690: 
+03:00:15 PM.693: ==== Recording Start ===============================================
+03:00:15 PM.694: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 15-00-15.mkv'...
+03:01:26 PM.877: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zhang/2020-10-19 15-00-15.mkv' stopped
+03:01:26 PM.877: Output 'simple_file_output': stopping
+03:01:26 PM.877: Output 'simple_file_output': Total frames output: 2127
+03:01:26 PM.877: Output 'simple_file_output': Total drawn frames: 2135
+03:01:26 PM.877: ==== Recording Stop ================================================
+03:03:28 PM.972: Starting recording due to hotkey
+03:03:28 PM.974: ---------------------------------
+03:03:28 PM.974: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+03:03:28 PM.974: [x264 encoder: 'simple_h264_recording'] profile: high
+03:03:28 PM.974: [x264 encoder: 'simple_h264_recording'] settings:
+03:03:28 PM.974: 	rate_control: CRF
+03:03:28 PM.974: 	bitrate:      0
+03:03:28 PM.974: 	buffer size:  0
+03:03:28 PM.974: 	crf:          19
+03:03:28 PM.974: 	fps_num:      30
+03:03:28 PM.974: 	fps_den:      1
+03:03:28 PM.974: 	width:        1280
+03:03:28 PM.974: 	height:       720
+03:03:28 PM.974: 	keyint:       250
+03:03:28 PM.974: 
+03:03:28 PM.983: ---------------------------------
+03:03:28 PM.983: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+03:03:28 PM.983: 
+03:03:28 PM.986: ==== Recording Start ===============================================
+03:03:28 PM.986: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 15-03-28.mkv'...
+03:04:27 PM.599: Stopping recording due to hotkey
+03:04:27 PM.915: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zhang/2020-10-19 15-03-28.mkv' stopped
+03:04:27 PM.915: Output 'simple_file_output': stopping
+03:04:27 PM.915: Output 'simple_file_output': Total frames output: 1759
+03:04:27 PM.915: Output 'simple_file_output': Total drawn frames: 1768
+03:04:27 PM.916: ==== Recording Stop ================================================
+03:09:30 PM.424: Starting recording due to hotkey
+03:09:30 PM.425: ---------------------------------
+03:09:30 PM.426: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+03:09:30 PM.426: [x264 encoder: 'simple_h264_recording'] profile: high
+03:09:30 PM.426: [x264 encoder: 'simple_h264_recording'] settings:
+03:09:30 PM.426: 	rate_control: CRF
+03:09:30 PM.426: 	bitrate:      0
+03:09:30 PM.426: 	buffer size:  0
+03:09:30 PM.426: 	crf:          19
+03:09:30 PM.426: 	fps_num:      30
+03:09:30 PM.426: 	fps_den:      1
+03:09:30 PM.426: 	width:        1280
+03:09:30 PM.426: 	height:       720
+03:09:30 PM.426: 	keyint:       250
+03:09:30 PM.426: 
+03:09:30 PM.432: ---------------------------------
+03:09:30 PM.433: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+03:09:30 PM.433: 
+03:09:30 PM.435: ==== Recording Start ===============================================
+03:09:30 PM.435: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 15-09-30.mkv'...
+03:09:32 PM.806: Stopping recording due to hotkey
+03:09:33 PM.074: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zhang/2020-10-19 15-09-30.mkv' stopped
+03:09:33 PM.074: Output 'simple_file_output': stopping
+03:09:33 PM.074: Output 'simple_file_output': Total frames output: 72
+03:09:33 PM.074: Output 'simple_file_output': Total drawn frames: 79
+03:09:33 PM.074: ==== Recording Stop ================================================
+03:09:48 PM.422: Starting recording due to hotkey
+03:09:48 PM.424: ---------------------------------
+03:09:48 PM.424: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+03:09:48 PM.424: [x264 encoder: 'simple_h264_recording'] profile: high
+03:09:48 PM.424: [x264 encoder: 'simple_h264_recording'] settings:
+03:09:48 PM.424: 	rate_control: CRF
+03:09:48 PM.424: 	bitrate:      0
+03:09:48 PM.424: 	buffer size:  0
+03:09:48 PM.424: 	crf:          19
+03:09:48 PM.424: 	fps_num:      30
+03:09:48 PM.424: 	fps_den:      1
+03:09:48 PM.424: 	width:        1280
+03:09:48 PM.424: 	height:       720
+03:09:48 PM.424: 	keyint:       250
+03:09:48 PM.424: 
+03:09:48 PM.431: ---------------------------------
+03:09:48 PM.431: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+03:09:48 PM.431: 
+03:09:48 PM.434: ==== Recording Start ===============================================
+03:09:48 PM.434: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 15-09-48.mkv'...
+03:09:56 PM.445: Stopping recording due to hotkey
+03:09:56 PM.719: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zhang/2020-10-19 15-09-48.mkv' stopped
+03:09:56 PM.719: Output 'simple_file_output': stopping
+03:09:56 PM.719: Output 'simple_file_output': Total frames output: 241
+03:09:56 PM.719: Output 'simple_file_output': Total drawn frames: 249
+03:09:56 PM.719: ==== Recording Stop ================================================
+03:53:35 PM.618: Starting recording due to hotkey
+03:53:35 PM.624: ---------------------------------
+03:53:35 PM.625: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+03:53:35 PM.625: [x264 encoder: 'simple_h264_recording'] profile: high
+03:53:35 PM.625: [x264 encoder: 'simple_h264_recording'] settings:
+03:53:35 PM.625: 	rate_control: CRF
+03:53:35 PM.625: 	bitrate:      0
+03:53:35 PM.625: 	buffer size:  0
+03:53:35 PM.625: 	crf:          19
+03:53:35 PM.625: 	fps_num:      30
+03:53:35 PM.625: 	fps_den:      1
+03:53:35 PM.625: 	width:        1280
+03:53:35 PM.625: 	height:       720
+03:53:35 PM.625: 	keyint:       250
+03:53:35 PM.625: 
+03:53:35 PM.634: ---------------------------------
+03:53:35 PM.634: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+03:53:35 PM.634: 
+03:53:35 PM.636: ==== Recording Start ===============================================
+03:53:35 PM.636: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 15-53-35.mkv'...
+03:53:51 PM.047: Stopping recording due to hotkey
+03:53:51 PM.327: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zhang/2020-10-19 15-53-35.mkv' stopped
+03:53:51 PM.327: Output 'simple_file_output': stopping
+03:53:51 PM.327: Output 'simple_file_output': Total frames output: 463
+03:53:51 PM.328: Output 'simple_file_output': Total drawn frames: 471
+03:53:51 PM.328: ==== Recording Stop ================================================
+03:55:41 PM.264: Starting recording due to hotkey
+03:55:41 PM.266: ---------------------------------
+03:55:41 PM.266: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+03:55:41 PM.266: [x264 encoder: 'simple_h264_recording'] profile: high
+03:55:41 PM.266: [x264 encoder: 'simple_h264_recording'] settings:
+03:55:41 PM.266: 	rate_control: CRF
+03:55:41 PM.266: 	bitrate:      0
+03:55:41 PM.266: 	buffer size:  0
+03:55:41 PM.266: 	crf:          19
+03:55:41 PM.266: 	fps_num:      30
+03:55:41 PM.266: 	fps_den:      1
+03:55:41 PM.266: 	width:        1280
+03:55:41 PM.266: 	height:       720
+03:55:41 PM.266: 	keyint:       250
+03:55:41 PM.266: 
+03:55:41 PM.271: ---------------------------------
+03:55:41 PM.271: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+03:55:41 PM.271: 
+03:55:41 PM.273: ==== Recording Start ===============================================
+03:55:41 PM.273: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 15-55-41.mkv'...
+03:55:57 PM.708: Stopping recording due to hotkey
+03:55:57 PM.988: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zhang/2020-10-19 15-55-41.mkv' stopped
+03:55:57 PM.988: Output 'simple_file_output': stopping
+03:55:57 PM.988: Output 'simple_file_output': Total frames output: 494
+03:55:57 PM.988: Output 'simple_file_output': Total drawn frames: 502
+03:55:57 PM.988: ==== Recording Stop ================================================
+04:34:00 PM.745: adding 21 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Audio Capture Device (ALSA))
+04:34:00 PM.745: 
+05:06:43 PM.620: Starting recording due to hotkey
+05:06:43 PM.623: ---------------------------------
+05:06:43 PM.623: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+05:06:43 PM.623: [x264 encoder: 'simple_h264_recording'] profile: high
+05:06:43 PM.623: [x264 encoder: 'simple_h264_recording'] settings:
+05:06:43 PM.623: 	rate_control: CRF
+05:06:43 PM.623: 	bitrate:      0
+05:06:43 PM.623: 	buffer size:  0
+05:06:43 PM.623: 	crf:          19
+05:06:43 PM.623: 	fps_num:      30
+05:06:43 PM.623: 	fps_den:      1
+05:06:43 PM.623: 	width:        1280
+05:06:43 PM.623: 	height:       720
+05:06:43 PM.623: 	keyint:       250
+05:06:43 PM.623: 
+05:06:43 PM.628: ---------------------------------
+05:06:43 PM.628: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+05:06:43 PM.628: 
+05:06:43 PM.630: ==== Recording Start ===============================================
+05:06:43 PM.630: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 17-06-43.mkv'...
+05:08:52 PM.697: Stopping recording due to hotkey
+05:08:52 PM.990: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zhang/2020-10-19 17-06-43.mkv' stopped
+05:08:52 PM.990: Output 'simple_file_output': stopping
+05:08:52 PM.990: Output 'simple_file_output': Total frames output: 3873
+05:08:52 PM.990: Output 'simple_file_output': Total drawn frames: 3881
+05:08:52 PM.990: ==== Recording Stop ================================================
+05:12:17 PM.773: Starting recording due to hotkey
+05:12:17 PM.775: ---------------------------------
+05:12:17 PM.775: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+05:12:17 PM.775: [x264 encoder: 'simple_h264_recording'] profile: high
+05:12:17 PM.775: [x264 encoder: 'simple_h264_recording'] settings:
+05:12:17 PM.775: 	rate_control: CRF
+05:12:17 PM.775: 	bitrate:      0
+05:12:17 PM.775: 	buffer size:  0
+05:12:17 PM.775: 	crf:          19
+05:12:17 PM.775: 	fps_num:      30
+05:12:17 PM.775: 	fps_den:      1
+05:12:17 PM.775: 	width:        1280
+05:12:17 PM.775: 	height:       720
+05:12:17 PM.775: 	keyint:       250
+05:12:17 PM.775: 
+05:12:17 PM.781: ---------------------------------
+05:12:17 PM.781: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+05:12:17 PM.781: 
+05:12:17 PM.784: ==== Recording Start ===============================================
+05:12:17 PM.784: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 17-12-17.mkv'...
+05:48:12 PM.610: Stopping recording due to hotkey
+05:48:12 PM.896: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zhang/2020-10-19 17-12-17.mkv' stopped
+05:48:12 PM.896: Output 'simple_file_output': stopping
+05:48:12 PM.896: Output 'simple_file_output': Total frames output: 64645
+05:48:12 PM.896: Output 'simple_file_output': Total drawn frames: 64653
+05:48:12 PM.896: ==== Recording Stop ================================================
+06:05:39 PM.031: Starting recording due to hotkey
+06:05:39 PM.034: ---------------------------------
+06:05:39 PM.034: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+06:05:39 PM.034: [x264 encoder: 'simple_h264_recording'] profile: high
+06:05:39 PM.034: [x264 encoder: 'simple_h264_recording'] settings:
+06:05:39 PM.034: 	rate_control: CRF
+06:05:39 PM.034: 	bitrate:      0
+06:05:39 PM.034: 	buffer size:  0
+06:05:39 PM.034: 	crf:          19
+06:05:39 PM.034: 	fps_num:      30
+06:05:39 PM.034: 	fps_den:      1
+06:05:39 PM.034: 	width:        1280
+06:05:39 PM.034: 	height:       720
+06:05:39 PM.034: 	keyint:       250
+06:05:39 PM.034: 
+06:05:39 PM.041: ---------------------------------
+06:05:39 PM.041: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 6, channel_layout: 3f
+06:05:39 PM.041: 
+06:05:39 PM.043: ==== Recording Start ===============================================
+06:05:39 PM.043: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zhang/2020-10-19 18-05-39.mkv'...
